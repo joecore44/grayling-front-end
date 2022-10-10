@@ -31,9 +31,9 @@ const AboutOurCompany = () => {
               data-aos-once="true"
             >
               <div className="about-content">
-                <span>About Our Company</span>
+                <span>About Grayling Agency 🐟</span>
                 <h3>
-                  Best Award Winning Creative Agency Shape Of Perfect Solution
+                  Top Rated on Upwork - Award Winning Creative Agency
                 </h3>
                 <p>
                   Lorem ipsum dolor sit amet consectetur adipiscing elit et
@@ -52,7 +52,7 @@ const AboutOurCompany = () => {
                 </p>
                 <div className="about-btn">
                   <Link href="/about">
-                    <a className="default-btn">Learn More</a>
+                    <a className="default-btn">Read More</a>
                   </Link>
                 </div>
               </div>

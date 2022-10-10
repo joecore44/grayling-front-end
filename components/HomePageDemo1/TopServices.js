@@ -12,23 +12,23 @@ const TopServices = () => {
                 <div className="number">01</div>
                 <h3>
                   <Link href="/service-details">
-                    <a>Product Engineering</a>
+                    <a>Social Media Content</a>
                   </Link>
                 </h3>
                 <ul className="features-list">
                   <li>
                     <Link href="/service-details">
-                      <a>Product Development</a>
+                      <a>Social Shit</a>
                     </Link>
                   </li>
                   <li>
                     <Link href="/service-details">
-                      <a>Product Consultation</a>
+                      <a>Social Shit</a>
                     </Link>
                   </li>
                   <li>
                     <Link href="/service-details">
-                      <a>Architechture Design</a>
+                      <a>Social Shit</a>
                     </Link>
                   </li>
                 </ul>
@@ -39,23 +39,23 @@ const TopServices = () => {
                 <div className="number">02</div>
                 <h3>
                   <Link href="/service-details">
-                    <a>UI/UX Design Strategy</a>
+                    <a>Web Design & Application Development</a>
                   </Link>
                 </h3>
                 <ul className="features-list">
                   <li>
                     <Link href="/service-details">
-                      <a>Brand Development</a>
+                      <a>Web Dev</a>
                     </Link>
                   </li>
                   <li>
                     <Link href="/service-details">
-                      <a>Technology Prototyping</a>
+                      <a>Web Dev</a>
                     </Link>
                   </li>
                   <li>
                     <Link href="/service-details">
-                      <a>Brand Integration</a>
+                      <a>Web Dev</a>
                     </Link>
                   </li>
                 </ul>
@@ -66,23 +66,23 @@ const TopServices = () => {
                 <div className="number">03</div>
                 <h3>
                   <Link href="/service-details">
-                    <a>Big Data & Analytics</a>
+                    <a>Video Production</a>
                   </Link>
                 </h3>
                 <ul className="features-list">
                   <li>
                     <Link href="/service-details">
-                      <a>ETL/Data Management</a>
+                      <a>Video Production</a>
                     </Link>
                   </li>
                   <li>
                     <Link href="/service-details">
-                      <a>Analytical Development</a>
+                      <a>Video Production</a>
                     </Link>
                   </li>
                   <li>
                     <Link href="/service-details">
-                      <a>Stream Processing</a>
+                      <a>Video Production</a>
                     </Link>
                   </li>
                 </ul>

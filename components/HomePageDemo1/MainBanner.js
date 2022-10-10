@@ -17,11 +17,10 @@ const MainBanner = () => {
               data-aos-once="true"
             >
               <div className="main-banner-content">
-                <span>Creative Digital Agency</span>
+                <span>Digitally Creative Agency 💡</span>
                 <h1>Create Your Experience With Us</h1>
                 <p>
-                  Lorem ipsum dolor sit amet consectetur adipiscing elit et
-                  fames maecenas amet est scelerisque lectus tortor sit.
+                  We need a quick half paragraph here. Write something sick AF.
                 </p>
                 <div className="banner-btn">
                   <Link href="/contact">
@@ -38,6 +37,7 @@ const MainBanner = () => {
               data-aos-duration="500"
               data-aos-once="true"
             >
+              
               <Swiper
                 spaceBetween={20}
                 slidesPerView={1}
@@ -49,11 +49,12 @@ const MainBanner = () => {
                 modules={[Autoplay]}
                 className="mySwiper main-banner-image-slides"
               >
+      
                 <SwiperSlide>
                   <div className="slides-image-item">
                     <img
-                      src="/images/main-banner/banner-1.jpg"
-                      alt="Banner Img 1"
+                  src="/images/main-banner/banner-1 copy.jpg"                      
+                  alt="Banner Img 1"
                     />
                   </div>
                 </SwiperSlide>
@@ -73,7 +74,7 @@ const MainBanner = () => {
                     />
                   </div>
                 </SwiperSlide>
-              </Swiper>
+              </Swiper> 
             </div>
           </div>
         </div>
@@ -84,7 +85,7 @@ const MainBanner = () => {
         <div className="main-banner-shape-2">
           <img src="/images/main-banner/shape-2.png" alt="Shape 2" />
         </div>
-        <div className="main-banner-bg-text">Teza</div>
+        <div className="main-banner-bg-text">Grayling</div>
       </div>
     </>
   );

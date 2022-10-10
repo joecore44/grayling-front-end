@@ -67,7 +67,7 @@ const NavbarStyle1 = () => {
 
                   <li className="nav-item">
                     <a href="#" className="nav-link">
-                      About <i className="ri-arrow-down-s-line"></i>
+                      About
                     </a>
                     <ul className="dropdown-menu">
                       <li className="nav-item">
@@ -100,11 +100,11 @@ const NavbarStyle1 = () => {
                       </li>
                     </ul>
                   </li>
-
+                  
                   <li className="nav-item">
                     <Link href="#" activeClassName="active">
                       <a className="nav-link">
-                        Pages <i className="ri-arrow-down-s-line"></i>
+                        Clients <i className="ri-arrow-down-s-line"></i>
                       </a>
                     </Link>
                     <ul className="dropdown-menu">
@@ -177,10 +177,10 @@ const NavbarStyle1 = () => {
                       </li>
                     </ul>
                   </li>
-
+                  
                   <li className="nav-item">
                     <a href="#" className="nav-link">
-                      Case Study <i className="ri-arrow-down-s-line"></i>
+                      Case Studies <i className="ri-arrow-down-s-line"></i>
                     </a>
                     <ul className="dropdown-menu">
                       <li className="nav-item">

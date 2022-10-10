@@ -37,7 +37,7 @@ const FunFactStyle1 = () => {
                   <span className="small-text">+</span>
                 </h3>
                 <p>
-                  Worldwide <br /> Partner
+                  Glocks <br /> Raris
                 </p>
               </div>
             </div>
@@ -49,7 +49,7 @@ const FunFactStyle1 = () => {
                   <span className="small-text">+</span>
                 </h3>
                 <p>
-                  Positive <br /> Review
+                  Positive <br /> Reviews
                 </p>
               </div>
             </div>
