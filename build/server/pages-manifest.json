@@ -2,6 +2,21 @@
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
-  "/pricing": "pages/pricing.js",
-  "/": "pages/index.js"
+  "/404": "pages/404.html",
+  "/api/contact": "pages/api/contact.js",
+  "/api/hello": "pages/api/hello.js",
+  "/about": "pages/about.html",
+  "/blog-details": "pages/blog-details.html",
+  "/blog": "pages/blog.html",
+  "/case-studies": "pages/case-studies.html",
+  "/case-study-details": "pages/case-study-details.html",
+  "/faq": "pages/faq.html",
+  "/contact": "pages/contact.html",
+  "/pricing": "pages/pricing.html",
+  "/": "pages/index.html",
+  "/service-details": "pages/service-details.html",
+  "/services": "pages/services.html",
+  "/privacy-policy": "pages/privacy-policy.html",
+  "/team": "pages/team.html",
+  "/testimonials": "pages/testimonials.html"
 }

@@ -18,7 +18,7 @@ const MainBanner = () => {
             >
               <div className="main-banner-content">
                 <span>Digitally Creative Agency 💡</span>
-                <h1>Create Your Experience With Us</h1>
+                <h1>Create Digital Experiences With Grayling</h1>
                 <p>
                   We need a quick half paragraph here. Write something sick AF.
                 </p>
