@@ -38,7 +38,6 @@ export default function Index() {
 
       <OurExpertise />
 
-      <Pricing />
 
       <TeamMemberStyle1 />
 

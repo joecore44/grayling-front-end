@@ -34,7 +34,7 @@ const TestimonialsCard = () => {
                     />
                     <div className="title">
                       <h3>Thomas Adison</h3>
-                      <span>CEO at Calbin.LTD</span>
+                      <span>CEO at LinkU</span>
                     </div>
                   </div>
                 </div>
@@ -64,7 +64,7 @@ const TestimonialsCard = () => {
                     />
                     <div className="title">
                       <h3>Aiven Rishi</h3>
-                      <span>CEO at Nicktos</span>
+                      <span>CEO at Only Fans</span>
                     </div>
                   </div>
                 </div>
@@ -94,7 +94,7 @@ const TestimonialsCard = () => {
                     />
                     <div className="title">
                       <h3>Alex Maxwell</h3>
-                      <span>CEO at EnvyTheme</span>
+                      <span>CEO at LinkU</span>
                     </div>
                   </div>
                 </div>
@@ -124,7 +124,7 @@ const TestimonialsCard = () => {
                     />
                     <div className="title">
                       <h3>Karnis Fatiha</h3>
-                      <span>CEO at Envato</span>
+                      <span>CEO at Only Fans</span>
                     </div>
                   </div>
                 </div>
@@ -154,7 +154,7 @@ const TestimonialsCard = () => {
                     />
                     <div className="title">
                       <h3>Sarah Taylor</h3>
-                      <span>CEO at ThemeForest</span>
+                      <span>CEO at LinkU</span>
                     </div>
                   </div>
                 </div>
@@ -184,7 +184,7 @@ const TestimonialsCard = () => {
                     />
                     <div className="title">
                       <h3>Marie Curie</h3>
-                      <span>Analytical Solutions</span>
+                      <span>CEO at LinkU</span>
                     </div>
                   </div>
                 </div>
@@ -214,7 +214,7 @@ const TestimonialsCard = () => {
                     />
                     <div className="title">
                       <h3>Steven</h3>
-                      <span>React JS Developer</span>
+                      <span>CEO at LinkU</span>
                     </div>
                   </div>
                 </div>
@@ -244,7 +244,7 @@ const TestimonialsCard = () => {
                     />
                     <div className="title">
                       <h3>Kevin</h3>
-                      <span>Angularjs Developer</span>
+                      <span>CEO at LinkU</span>
                     </div>
                   </div>
                 </div>
@@ -274,7 +274,7 @@ const TestimonialsCard = () => {
                     />
                     <div className="title">
                       <h3>Jason</h3>
-                      <span>UI/UX Designer</span>
+                      <span>CEO at LinkU</span>
                     </div>
                   </div>
                 </div>

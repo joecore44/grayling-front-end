@@ -1,19 +1,21 @@
 import React from "react";
-import NavbarStyle2 from "@/components/Layout/Navbar/NavbarStyle2";
+import NavbarStyle1 from "@/components/Layout/Navbar/NavbarStyle1";
 import PageBanner from "@/components/Common/PageBanner";
-import BlogPost3Column from "@/components/Blog/BlogPost3Column";
+import BlogWithRightSidebar from "@/components/Blog/BlogWithRightSidebar";
 import Footer from "@/components/Layout/Footer/Footer";
 
-export default function Blog() {
+const BlogRightSidebar = () => {
   return (
     <>
-      <NavbarStyle2 />
+      <NavbarStyle1 />
 
       <PageBanner title="Blog" homeText="Home" homeUrl="/" />
 
-      <BlogPost3Column />
+      <BlogWithRightSidebar />
 
       <Footer />
     </>
   );
-}
+};
+
+export default BlogRightSidebar;

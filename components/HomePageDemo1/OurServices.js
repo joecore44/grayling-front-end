@@ -7,8 +7,8 @@ const OurServices = () => {
       <div className="services-area ptb-100">
         <div className="container">
           <div className="section-title">
-            <span>Our Services</span>
-            <h2>Get Benefit And More With Our Excelent Services</h2>
+            <span>Maybe Some Benefits</span>
+            <h2>Quick Title About Benefits</h2>
           </div>
 
           <div className="row justify-content-center">
@@ -19,7 +19,7 @@ const OurServices = () => {
                 </div>
                 <h3>
                   <Link href="/service-details">
-                    <a>Business Strategy</a>
+                    <a>Some Cool Shit</a>
                   </Link>
                 </h3>
                 <p>
@@ -39,7 +39,7 @@ const OurServices = () => {
                 </div>
                 <h3>
                   <Link href="/service-details">
-                    <a>Website Development</a>
+                    <a>Some Cool Shit</a>
                   </Link>
                 </h3>
                 <p>
@@ -59,7 +59,7 @@ const OurServices = () => {
                 </div>
                 <h3>
                   <Link href="/service-details">
-                    <a>Marketing & Reporting</a>
+                    <a>Some Cool Shit</a>
                   </Link>
                 </h3>
                 <p>

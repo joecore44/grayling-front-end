@@ -1,5 +1,5 @@
 import React from "react";
-import NavbarStyle2 from "@/components/Layout/Navbar/NavbarStyle2";
+import NavbarStyle1 from "@/components/Layout/Navbar/NavbarStyle1";
 import PageBanner from "@/components/Common/PageBanner";
 import ServiceDetailsContent from "@/components/Services/ServiceDetailsContent";
 import Cta from "@/components/Common/Cta";
@@ -8,7 +8,7 @@ import Footer from "@/components/Layout/Footer/Footer";
 export default function ServiceDetails() {
   return (
     <>
-      <NavbarStyle2 />
+      <NavbarStyle1 />
 
       <PageBanner title="Service Details" homeText="Home" homeUrl="/" />
 

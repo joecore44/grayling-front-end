@@ -1,5 +1,5 @@
 import React from "react";
-import NavbarStyle2 from "@/components/Layout/Navbar/NavbarStyle2";
+import NavbarStyle1 from "@/components/Layout/Navbar/NavbarStyle1";
 import PageBanner from "@/components/Common/PageBanner";
 import AboutOurCompany from "@/components/About/AboutOurCompany";
 import FunFactStyle3 from "@/components/Common/FunFactStyle3";
@@ -14,7 +14,7 @@ import Footer from "@/components/Layout/Footer/Footer";
 export default function About() {
   return (
     <>
-      <NavbarStyle2 />
+      <NavbarStyle1 />
 
       <PageBanner title="About One" homeText="Home" homeUrl="/" />
 

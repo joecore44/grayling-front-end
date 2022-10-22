@@ -7,13 +7,13 @@ const Cta = () => {
       <div className="container">
         <div className="cta-area ptb-100">
           <div className="cta-content">
-            <span>Have a project in mind?</span>
-            <h3>Let&apos;s get to work!</h3>
+            <h3>Let's <strong>Grow Your Business!</strong></h3>
+            <span>Let's Chat</span>
           </div>
 
           <div className="cta-btn-box">
             <Link href="/contact">
-              <a className="default-btn">Contact Us</a>
+              <a className="default-btn">Contact Us Now</a>
             </Link>
           </div>
         </div>
