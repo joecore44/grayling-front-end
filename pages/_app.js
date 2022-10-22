@@ -27,7 +27,7 @@ function MyApp({ Component, pageProps }) {
   return (
     <>
       <Head>
-        <title>Grayling - Creative Agency</title>
+        <title>Grayling - Content First, Digital Agency</title>
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
       </Head>
 
