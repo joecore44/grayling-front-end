@@ -14,13 +14,15 @@ query GetTopPosts {
               altText
               date
               sourceUrl
-              title
+              title(format: RAW)
+              description(format: RAW)
             }
           }
           link
           title
           date
           uri
+          slug
         }
       }
   }

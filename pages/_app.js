@@ -32,11 +32,9 @@ function MyApp({ Component, pageProps }) {
         <title>Grayling - Content First, Digital Agency</title>
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
       </Head>
-
-      <ApolloProvider client={client}>
-        <Component {...pageProps} />
-      </ApolloProvider>
-
+        <ApolloProvider client={client}>
+          <Component {...pageProps} />
+        </ApolloProvider>
       <ScrollToTop />
     </>
   );

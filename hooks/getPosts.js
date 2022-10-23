@@ -14,7 +14,8 @@ query GetPosts {
               altText
               date
               sourceUrl
-              title
+              title(format: RAW)
+              description(format: RAW)
             }
           }
           link

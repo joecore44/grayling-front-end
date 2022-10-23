@@ -21,7 +21,7 @@ const LatestArticles = () => {
                         return <div className="col-lg-4 col-md-6">
                                     <div className="single-blog-card">
                                         <div className="blog-image">
-                                            <Link href="/blog-details">
+                                            <Link href={`/blog/${post.slug}`}>
                                                 <a><img src={post.featuredImage.node.sourceUrl} 
                                                 title={post.featuredImage.node.title} 
                                                 alt={post.featuredImage.node.altText}/></a>
@@ -30,7 +30,7 @@ const LatestArticles = () => {
                                         <div className="blog-content">
                                             <span>By <Link href="/author"><a>{ post.author.node.name }</a></Link></span>
                                             <h3>
-                                                <Link href="/blog-details">
+                                                <Link href={`/blog/${post.slug}`}>
                                                     <a>{ post.title }</a>
                                                 </Link>
                                             </h3>
