@@ -1,9 +1,12 @@
 import React from "react";
 import Link from "next/link";
 import BlogSidebar from './BlogSidebar';
+import { getPosts } from 'hooks/getPosts';
  
 const BlogWithRightSidebar = () => {
- 
+  const {error, loading, data } = getPosts();
+  if (loading) return <p>Loading...</p>;
+  if (error) return <p>Error : {error}</p>;
   return (
     <>
       <div className="blog-area ptb-100">
@@ -11,226 +14,47 @@ const BlogWithRightSidebar = () => {
           <div className="row">
             <div className="col-lg-8 col-md-12">
               <div className="row justify-content-center">
-                <div className="col-lg-6 col-md-6">
-                  <div className="single-blog-card">
-                    <div className="blog-image">
-                      <Link href="/blog-details">
-                        <a>
-                          <img src="/images/blog/blog-4.jpg" alt="image" />
-                        </a>
-                      </Link>
+              {data.posts.nodes.map(post => { 
+                  return  <div className="col-lg-6 col-md-6">
+                            <div className="single-blog-card">
+                              <div className="blog-image">
+                                <Link href={`/blog/${post.slug}`}>
+                                <a>
+                                  <img src={post.featuredImage.node.sourceUrl} 
+                                      title={post.featuredImage.node.title} 
+                                      alt={post.featuredImage.node.altText}/></a>
+                                </Link>
+                              </div>
+                              <div className="blog-content with-padding">
+                                <span>
+                                  By{" "}
+                                  <Link href="/author">
+                                    <a>{post.author.node.name}</a>
+                                  </Link>
+                                </span>
+                                <h3>
+                                  <Link href="/blog-details">
+                                    <a>
+                                      How Developers Are Taking The Guesswork Out Of
+                                      Animation
+                                    </a>
+                                  </Link>
+                                </h3>
+                                <ul className="entry-meta">
+                                  <li>
+                                    <i className="ri-calendar-line"></i> October 14, 2022
+                                  </li>
+                                  <li>
+                                    <i className="ri-price-tag-3-line"></i>{" "}
+                                    <Link href="/tags">
+                                      <a>Commercial</a>
+                                    </Link>
+                                  </li>
+                                </ul>
+                              </div>
+                            </div>
                     </div>
-                    <div className="blog-content with-padding">
-                      <span>
-                        By{" "}
-                        <Link href="/author">
-                          <a>Admin</a>
-                        </Link>
-                      </span>
-                      <h3>
-                        <Link href="/blog-details">
-                          <a>
-                            How Developers Are Taking The Guesswork Out Of
-                            Animation
-                          </a>
-                        </Link>
-                      </h3>
-                      <ul className="entry-meta">
-                        <li>
-                          <i className="ri-calendar-line"></i> October 14, 2022
-                        </li>
-                        <li>
-                          <i className="ri-price-tag-3-line"></i>{" "}
-                          <Link href="/tags">
-                            <a>Commercial</a>
-                          </Link>
-                        </li>
-                      </ul>
-                    </div>
-                  </div>
-                </div>
-
-                <div className="col-lg-6 col-md-6">
-                  <div className="single-blog-card">
-                    <div className="blog-image">
-                      <Link href="/blog-details">
-                        <a>
-                          <img src="/images/blog/blog-5.jpg" alt="image" />
-                        </a>
-                      </Link>
-                    </div>
-                    <div className="blog-content with-padding">
-                      <span>
-                        By{" "}
-                        <Link href="/author">
-                          <a>Admin</a>
-                        </Link>
-                      </span>
-                      <h3>
-                        <Link href="/blog-details">
-                          <a>Tech Designer John Doe Latest Design Of 2022</a>
-                        </Link>
-                      </h3>
-                      <ul className="entry-meta">
-                        <li>
-                          <i className="ri-calendar-line"></i> October 15, 2022
-                        </li>
-                        <li>
-                          <i className="ri-price-tag-3-line"></i>{" "}
-                          <Link href="/tags">
-                            <a>Agency</a>
-                          </Link>
-                        </li>
-                      </ul>
-                    </div>
-                  </div>
-                </div>
-
-                <div className="col-lg-6 col-md-6">
-                  <div className="single-blog-card">
-                    <div className="blog-image">
-                      <Link href="/blog-details">
-                        <a>
-                          <img src="/images/blog/blog-6.jpg" alt="image" />
-                        </a>
-                      </Link>
-                    </div>
-                    <div className="blog-content with-padding">
-                      <span>
-                        By{" "}
-                        <Link href="/author">
-                          <a>Admin</a>
-                        </Link>
-                      </span>
-                      <h3>
-                        <Link href="/blog-details">
-                          <a>
-                            Listen To The Entire Library Of Design Better Books
-                          </a>
-                        </Link>
-                      </h3>
-                      <ul className="entry-meta">
-                        <li>
-                          <i className="ri-calendar-line"></i> October 16, 2022
-                        </li>
-                        <li>
-                          <i className="ri-price-tag-3-line"></i>{" "}
-                          <Link href="/tags">
-                            <a>Business</a>
-                          </Link>
-                        </li>
-                      </ul>
-                    </div>
-                  </div>
-                </div>
-
-                <div className="col-lg-6 col-md-6">
-                  <div className="single-blog-card">
-                    <div className="blog-image">
-                      <Link href="/blog-details">
-                        <a>
-                          <img src="/images/blog/blog-7.jpg" alt="image" />
-                        </a>
-                      </Link>
-                    </div>
-                    <div className="blog-content with-padding">
-                      <span>
-                        By{" "}
-                        <Link href="/author">
-                          <a>Admin</a>
-                        </Link>
-                      </span>
-                      <h3>
-                        <Link href="/blog-details">
-                          <a>15 Unheard Ways To Achieve Greater Walker</a>
-                        </Link>
-                      </h3>
-                      <ul className="entry-meta">
-                        <li>
-                          <i className="ri-calendar-line"></i> October 16, 2022
-                        </li>
-                        <li>
-                          <i className="ri-price-tag-3-line"></i>{" "}
-                          <Link href="/tags">
-                            <a>Consulting</a>
-                          </Link>
-                        </li>
-                      </ul>
-                    </div>
-                  </div>
-                </div>
-
-                <div className="col-lg-6 col-md-6">
-                  <div className="single-blog-card">
-                    <div className="blog-image">
-                      <Link href="/blog-details">
-                        <a>
-                          <img src="/images/blog/blog-8.jpg" alt="image" />
-                        </a>
-                      </Link>
-                    </div>
-                    <div className="blog-content with-padding">
-                      <span>
-                        By{" "}
-                        <Link href="/author">
-                          <a>Admin</a>
-                        </Link>
-                      </span>
-                      <h3>
-                        <Link href="/blog-details">
-                          <a>Facts About Business That Will Help You Success</a>
-                        </Link>
-                      </h3>
-                      <ul className="entry-meta">
-                        <li>
-                          <i className="ri-calendar-line"></i> October 16, 2022
-                        </li>
-                        <li>
-                          <i className="ri-price-tag-3-line"></i>{" "}
-                          <Link href="/tags">
-                            <a>Design</a>
-                          </Link>
-                        </li>
-                      </ul>
-                    </div>
-                  </div>
-                </div>
-
-                <div className="col-lg-6 col-md-6">
-                  <div className="single-blog-card">
-                    <div className="blog-image">
-                      <Link href="/blog-details">
-                        <a>
-                          <img src="/images/blog/blog-9.jpg" alt="image" />
-                        </a>
-                      </Link>
-                    </div>
-                    <div className="blog-content with-padding">
-                      <span>
-                        By{" "}
-                        <Link href="/author">
-                          <a>Admin</a>
-                        </Link>
-                      </span>
-                      <h3>
-                        <Link href="/blog-details">
-                          <a>An Incredibly Easy Method That Works For All</a>
-                        </Link>
-                      </h3>
-                      <ul className="entry-meta">
-                        <li>
-                          <i className="ri-calendar-line"></i> October 16, 2022
-                        </li>
-                        <li>
-                          <i className="ri-price-tag-3-line"></i>{" "}
-                          <Link href="/tags">
-                            <a>Marketing</a>
-                          </Link>
-                        </li>
-                      </ul>
-                    </div>
-                  </div>
-                </div>
+                })} 
               </div>
 
               <div className="pagination-area">

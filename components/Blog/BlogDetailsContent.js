@@ -31,16 +31,14 @@ const BlogDetailsContent = () => {
                 </div>
 
                 <ul className="meta-tag">
-                  <li>Posted: {data.post.date}</li>
-                  
+                  <li>Posted: {data.post.date}</li> 
                 </ul>
                  
                 <div className="article-content">
                  <h1>{data.post.title}</h1>
 
                   <div dangerouslySetInnerHTML={{ __html: data.post.content }} />
-                  
-                  
+
                 </div>
 
                 <div className="article-tags">

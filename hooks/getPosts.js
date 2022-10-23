@@ -22,6 +22,7 @@ query GetPosts {
           title
           date
           uri
+          slug
         }
       }
   }

@@ -16,8 +16,8 @@ const ContactInfo = () => {
                 <div className="icon">
                   <i className="ri-map-pin-line"></i>
                 </div>
-                <h3>Address</h3>
-                <p>Manual 3B, Jason Block, New Jersey, Australia</p>
+                <h3>Location</h3>
+                <p>6350 E State Rte 69 Unit A, Prescott Valley, AZ 86314</p>
               </div>
             </div>
 
@@ -28,8 +28,8 @@ const ContactInfo = () => {
                 </div>
                 <h3>Email Address</h3>
                 <p>
-                  <a href="mailto:info@teza.com">info@teza.com</a> <br />{" "}
-                  <a href="mailto:contact@teza.com">contact@teza.com</a>
+                  <a href="mailto:yo@graylingagency.com">yo@graylingagency.com</a> <br />{" "}
+                  <a href="mailto:yo@graylingagency.com">yo@graylingagency.com</a>
                 </p>
               </div>
             </div>
@@ -41,8 +41,8 @@ const ContactInfo = () => {
                 </div>
                 <h3>Phone Number</h3>
                 <p>
-                  <a href="tel:91298765436543">+912 9876 5436 543</a> <br />{" "}
-                  <a href="tel:91298765436766">+912 9876 5436 766</a>
+                  <a href="tel:91298765436543">(800) 469-5804</a> <br />{" "}
+                  <a href="tel:91298765436766">(800) 469-5804</a>
                 </p>
               </div>
             </div>
