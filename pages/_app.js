@@ -8,6 +8,8 @@ import "../styles/flaticon.css";
 import "react-accessible-accordion/dist/fancy-example.css";
 import "swiper/css";
 import "swiper/css/bundle";
+import { ApolloProvider } from "@apollo/client/react";
+import { client } from "../lib/apollo";
 // Navbar CSS
 import "../styles/navbar.css";
 // Footer CSS
@@ -31,7 +33,9 @@ function MyApp({ Component, pageProps }) {
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
       </Head>
 
-      <Component {...pageProps} />
+      <ApolloProvider client={client}>
+        <Component {...pageProps} />
+      </ApolloProvider>
 
       <ScrollToTop />
     </>

@@ -14,6 +14,8 @@ import TeamMemberStyle1 from "@/components/Common/TeamMemberStyle1";
 import LatestArticles from "@/components/Common/LatestArticles";
 import Cta from "@/components/Common/Cta";
 import Footer from "@/components/Layout/Footer/Footer";
+import { client } from "../lib/apollo";
+import { gql } from "@apollo/client";
 
 export default function Index() {
   return (
@@ -42,7 +44,7 @@ export default function Index() {
       <TeamMemberStyle1 />
 
       <div className="ptb-100">
-        <LatestArticles />
+          <LatestArticles/>
       </div>
  
       <Cta />
@@ -51,3 +53,4 @@ export default function Index() {
     </>
   );
 }
+
