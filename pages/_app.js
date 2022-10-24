@@ -31,6 +31,9 @@ function MyApp({ Component, pageProps }) {
       <Head>
         <title>Grayling - Content First, Digital Agency</title>
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+        <meta property="og:description" content="Grayling - Content First, Digital Agency"/>
+  <meta property="og:title" content="Grayling - Content First, Digital Agency"/>
+  <meta property="og:image" content="https://dev.graylingagency.co/sites/grayling-v2/wp-content/uploads/2022/10/social-media-for-business-1024x576-1.jpeg"/>
       </Head>
         <ApolloProvider client={client}>
           <Component {...pageProps} />
