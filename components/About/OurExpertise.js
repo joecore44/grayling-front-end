@@ -16,7 +16,7 @@ const OurExpertise = () => {
               >
                 <span>Our Expertise</span>
                 <h3>
-                  Boost Business With Creative Idea & Brand Solutions With Us
+                  Boosting Business With Creative Ideas & Branding Solutions That Stick
                 </h3>
                 <p>
                   Lorem ipsum dolor sit amet consectetur adipiscing elit et
@@ -31,7 +31,7 @@ const OurExpertise = () => {
                       <div className="icon">
                         <i className="ri-stack-line"></i>
                       </div>
-                      <h4>Boost Your Sale</h4>
+                      <h4>Boost Your Sales</h4>
                       <p>
                         Lorem ipsum dolor sit amet consectetur adipiscing elit
                         in pretium blandit urna.
@@ -44,7 +44,7 @@ const OurExpertise = () => {
                       <div className="icon">
                         <i className="ri-focus-2-line"></i>
                       </div>
-                      <h4>Idea & Analysis</h4>
+                      <h4>Get Fucking Ritch</h4>
                       <p>
                         Lorem ipsum dolor sit amet consectetur adipiscing elit
                         in pretium blandit urna.

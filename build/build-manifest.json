@@ -34,6 +34,11 @@
       "static/chunks/webpack.js",
       "static/chunks/main.js",
       "static/chunks/pages/blog/[slug].js"
+    ],
+    "/case-studies": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/case-studies.js"
     ]
   },
   "ampFirstPages": []

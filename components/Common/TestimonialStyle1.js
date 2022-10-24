@@ -9,7 +9,7 @@ const TestimonialStyle1 = () => {
         <div className="container">
           <div className="section-title">
             <span>Our Testimonials</span>
-            <h2>What Our Clients Are Saying?</h2>
+            <h2>What Our Clients Have to Say?</h2>
           </div>
 
           <Swiper
@@ -37,8 +37,8 @@ const TestimonialStyle1 = () => {
                       alt="image"
                     />
                     <div className="title">
-                      <h3>James Anderson</h3>
-                      <span>CEO at ABC LTD</span>
+                      <h3>Ryan Lesley</h3>
+                      <span>CEO at SuperPhone.io</span>
                     </div>
                   </div>
                 </div>
@@ -66,7 +66,7 @@ const TestimonialStyle1 = () => {
                     />
                     <div className="title">
                       <h3>Thomas Adison</h3>
-                      <span>CEO at EnvyTheme</span>
+                      <span>CEO at Your Mom's</span>
                     </div>
                   </div>
                 </div>

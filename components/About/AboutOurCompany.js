@@ -30,9 +30,9 @@ const AboutOurCompany = () => {
               data-aos-once="true"
             >
               <div className="about-content">
-                <span>About Our Company</span>
+                <span>About Grayling</span>
                 <h3>
-                  Best Award Winning Creative Agency Shape Of Perfect Solution
+                  Best Award Winning Creative Agency on Upwork & Shit
                 </h3>
                 <p>
                   Lorem ipsum dolor sit amet consectetur adipiscing elit et

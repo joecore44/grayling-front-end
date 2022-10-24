@@ -8,7 +8,7 @@ const CaseStudyCard = () => {
         <div className="container">
           <div className="section-title">
             <span>Case Study</span>
-            <h2>Grow And Experience Endless Possibilites To Your Business</h2>
+            <h2>Grow And Experience Endless Possibilites When You Work With Grayling 🐟</h2>
           </div>
 
           <div className="row justify-content-center">

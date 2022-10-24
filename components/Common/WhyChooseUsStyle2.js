@@ -9,7 +9,7 @@ const WhyChooseUsStyle2 = () => {
     <>
       <FsLightbox
         toggler={toggler}
-        sources={["https://www.youtube.com/watch?v=bk7McNUjWgw"]}
+        sources={["https://www.youtube.com/watch?v=p09i_hoFdd0"]}
       />
 
       <div className="why-choose-us-area-with-video ptb-100">

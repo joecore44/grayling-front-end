@@ -16,9 +16,9 @@ const Faq = () => {
           <div className="row align-items-center justify-content-center">
             <div className="col-lg-6 col-md-12">
               <div className="faq-content">
-                <span>Ask Any Questions</span>
+                <span>You Have a Question?</span>
                 <h3>
-                  Boost Business With Creative Idea & Brand Solutions With Us
+                  Of Mother Fucking Course You Do. Ask Away!
                 </h3>
                 <p>
                   Lorem ipsum dolor sit amet consectetur adipiscing elit et
@@ -78,7 +78,7 @@ const Faq = () => {
                   <AccordionItem uuid="a">
                     <AccordionItemHeading>
                       <AccordionItemButton>
-                        Company Provides A Full Range of Services?
+                        How much money is this going to cost me?
                       </AccordionItemButton>
                     </AccordionItemHeading>
                     <AccordionItemPanel>
@@ -94,7 +94,7 @@ const Faq = () => {
                   <AccordionItem uuid="b">
                     <AccordionItemHeading>
                       <AccordionItemButton>
-                        How Long It Will Take For Web Development?
+                        How long will it take to complete my one month project if I take 3 weeks to get you what you need?
                       </AccordionItemButton>
                     </AccordionItemHeading>
                     <AccordionItemPanel>
@@ -110,7 +110,7 @@ const Faq = () => {
                   <AccordionItem uuid="c">
                     <AccordionItemHeading>
                       <AccordionItemButton>
-                        What About Money Back Guarantee!
+                        What About Money Back Guarantee?
                       </AccordionItemButton>
                     </AccordionItemHeading>
                     <AccordionItemPanel>

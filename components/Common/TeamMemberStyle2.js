@@ -9,7 +9,7 @@ const TeamMemberStyle2 = () => {
         <div className="container">
           <div className="section-title">
             <span>Our Expert Team</span>
-            <h2>Talented Member Ready To Start Our Project</h2>
+            <h2>Talented Members Ready Rip and Gript</h2>
           </div>
 
           <Swiper
@@ -35,12 +35,12 @@ const TeamMemberStyle2 = () => {
             <SwiperSlide>
               <div className="single-team-item">
                 <div className="team-image">
-                  <img src="/images/team/team-1.jpg" alt="Teza" />
+                  <img src="/images/team/team-1.jpg" alt="" />
 
                   <ul className="social">
                     <li>
                       <a
-                        href="https://www.facebook.com/EnvyTheme"
+                        href="https://www.facebook.com/"
                         target="_blank"
                         rel="noreferrer"
                       >
@@ -91,7 +91,7 @@ const TeamMemberStyle2 = () => {
                   <ul className="social">
                     <li>
                       <a
-                        href="https://www.facebook.com/EnvyTheme"
+                        href="https://www.facebook.com/"
                         target="_blank"
                         rel="noreferrer"
                       >
@@ -128,7 +128,7 @@ const TeamMemberStyle2 = () => {
                   </ul>
                 </div>
                 <div className="team-content">
-                  <h3>Jeclin Firnandos</h3>
+                  <h3>Josh Laykin</h3>
                   <span>Manager</span>
                 </div>
               </div>
@@ -137,12 +137,12 @@ const TeamMemberStyle2 = () => {
             <SwiperSlide>
               <div className="single-team-item">
                 <div className="team-image">
-                  <img src="/images/team/team-2.jpg" alt="Teza" />
+                  <img src="/images/team/team-2.jpg" alt="" />
 
                   <ul className="social">
                     <li>
                       <a
-                        href="https://www.facebook.com/EnvyTheme"
+                        href="https://www.facebook.com/"
                         target="_blank"
                         rel="noreferrer"
                       >
@@ -179,7 +179,7 @@ const TeamMemberStyle2 = () => {
                   </ul>
                 </div>
                 <div className="team-content">
-                  <h3>Albas Madris</h3>
+                  <h3>Christ Henry</h3>
                   <span>Marketing Director</span>
                 </div>
               </div>
@@ -193,7 +193,7 @@ const TeamMemberStyle2 = () => {
                   <ul className="social">
                     <li>
                       <a
-                        href="https://www.facebook.com/EnvyTheme"
+                        href="https://www.facebook.com/"
                         target="_blank"
                         rel="noreferrer"
                       >
@@ -230,7 +230,7 @@ const TeamMemberStyle2 = () => {
                   </ul>
                 </div>
                 <div className="team-content">
-                  <h3>Jeson Smith</h3>
+                  <h3>Jason Smith</h3>
                   <span>Founder</span>
                 </div>
               </div>
@@ -244,7 +244,7 @@ const TeamMemberStyle2 = () => {
                   <ul className="social">
                     <li>
                       <a
-                        href="https://www.facebook.com/EnvyTheme"
+                        href="https://www.facebook.com/"
                         target="_blank"
                         rel="noreferrer"
                       >
@@ -282,7 +282,7 @@ const TeamMemberStyle2 = () => {
                 </div>
                 <div className="team-content">
                   <h3>Meriva Anjlin</h3>
-                  <span>Designer, Themeforest</span>
+                  <span>Designer</span>
                 </div>
               </div>
             </SwiperSlide>
@@ -332,7 +332,7 @@ const TeamMemberStyle2 = () => {
                   </ul>
                 </div>
                 <div className="team-content">
-                  <h3>Sayful Milon</h3>
+                  <h3>Sean Walls</h3>
                   <span>Data Management</span>
                 </div>
               </div>
@@ -346,7 +346,7 @@ const TeamMemberStyle2 = () => {
                   <ul className="social">
                     <li>
                       <a
-                        href="https://www.facebook.com/EnvyTheme"
+                        href="https://www.facebook.com/"
                         target="_blank"
                         rel="noreferrer"
                       >
@@ -383,8 +383,8 @@ const TeamMemberStyle2 = () => {
                   </ul>
                 </div>
                 <div className="team-content">
-                  <h3>Jeqlin Firnos</h3>
-                  <span>Analytical Solutions</span>
+                  <h3>Jaquelin Firnos</h3>
+                  <span>Analytical Chick</span>
                 </div>
               </div>
             </SwiperSlide>
@@ -397,7 +397,7 @@ const TeamMemberStyle2 = () => {
                   <ul className="social">
                     <li>
                       <a
-                        href="https://www.facebook.com/EnvyTheme"
+                        href="https://www.facebook.com/"
                         target="_blank"
                         rel="noreferrer"
                       >

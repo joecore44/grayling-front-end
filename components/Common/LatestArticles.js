@@ -13,7 +13,7 @@ const LatestArticles = () => {
                 <div className="container">
                     <div className="section-title">
                         <span>Read Our Latest Articles</span>
-                        <h2>Latest From Our Blog Post For Business Technology </h2>
+                        <h2>Latest From Our Blog | Marketing, Business and Technology </h2>
                     </div>
 
                     <div className="row justify-content-center">

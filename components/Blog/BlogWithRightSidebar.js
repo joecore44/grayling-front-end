@@ -33,16 +33,15 @@ const BlogWithRightSidebar = () => {
                                   </Link>
                                 </span>
                                 <h3>
-                                  <Link href="/blog-details">
+                                  <Link href={`/blog/${post.slug}`}>
                                     <a>
-                                      How Developers Are Taking The Guesswork Out Of
-                                      Animation
+                                      { post.title }
                                     </a>
                                   </Link>
                                 </h3>
                                 <ul className="entry-meta">
                                   <li>
-                                    <i className="ri-calendar-line"></i> October 14, 2022
+                                    <i className="ri-calendar-line"></i> {post.date}
                                   </li>
                                   <li>
                                     <i className="ri-price-tag-3-line"></i>{" "}

@@ -16,7 +16,7 @@ export default function About() {
     <>
       <NavbarStyle1 />
 
-      <PageBanner title="About One" homeText="Home" homeUrl="/" />
+      <PageBanner title="About Grayling" homeText="Home" homeUrl="/" />
 
       <AboutOurCompany />
 

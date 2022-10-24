@@ -11,8 +11,8 @@ const TestimonialStyle2 = () => {
           <div className="row align-items-center justify-content-center">
             <div className="col-lg-4 col-md-12">
               <div className="testimonials-box-content">
-                <span>Our Review</span>
-                <h3>Alone We Can Do So Little Together We Can Do So Much</h3>
+                <span>Client Reviews</span>
+                <h3>These Fools Are Happy, You Will Be Too</h3>
                 <p>
                   Lorem ipsum dolor sit amet consectetur adipiscing elit et
                   fames maecenas amet est scelerisque lectus tortor sit lorem

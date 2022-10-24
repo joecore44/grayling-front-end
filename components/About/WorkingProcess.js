@@ -6,8 +6,8 @@ const WorkingProcess = () => {
       <div className="working-process-area pt-100 pb-75">
         <div className="container">
           <div className="section-title">
-            <span>Working Process</span>
-            <h2>Easy Process We Follow To Get Result</h2>
+            <span>How We Roll</span>
+            <h2>The Process We Follow To Get Results</h2>
           </div>
 
           <div className="row justify-content-center">
@@ -34,7 +34,7 @@ const WorkingProcess = () => {
             <div className="col-lg-3 col-sm-6">
               <div className="single-working-process-card">
                 <div className="number">03</div>
-                <h3>Practise</h3>
+                <h3>Testing</h3>
                 <p>
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                   do eiusmod tempor incididunt ut labore et dolore.

@@ -15,7 +15,7 @@ const WhyChooseUsStyle1 = () => {
                 data-aos-once="true"
               >
                 <span>Why Choose Us</span>
-                <h3>Our Working Process To Help Your Boost Your Business</h3>
+                <h3>Mostly Because We Are The Shit and We Do Cool Things</h3>
                 <p>
                   Lorem ipsum dolor sit amet consectetur adipiscing elit et
                   fames maecenas amet est scelerisque lectus tortor sit lorem
@@ -38,7 +38,7 @@ const WhyChooseUsStyle1 = () => {
                   <div className="icon">
                     <i className="flaticon-public-relations"></i>
                   </div>
-                  <h4>Public Relation</h4>
+                  <h4>Public Relations</h4>
                   <p>
                     Lorem ipsum dolor sit amet consectetur adipiscing elit velit
                     sagittis eu viverra pellentesque condimentum.

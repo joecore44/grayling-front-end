@@ -9,14 +9,14 @@ const CaseStudy = () => {
           <div className="section-title-wrap">
             <div className="row align-items-center">
               <div className="col-lg-7 col-md-12">
-                <span>Case Study</span>
+                <span>Case Studies</span>
                 <h2>
-                  Grow And Experience Endless Possibilites To Your Business
+                Grow And Experience Endless Possibilites When You Work With Grayling 🐟
                 </h2>
               </div>
               <div className="col-lg-5 col-md-12 text-end">
-                <Link href="/case-study">
-                  <a className="default-btn">View More</a>
+                <Link href="/case-studies">
+                  <a className="default-btn">View Case Studies</a>
                 </Link>
               </div>
             </div>

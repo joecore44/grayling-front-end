@@ -6,8 +6,8 @@ const FunFactStyle3 = () => {
       <div className="fun-fact-area bg-three pt-100 pb-75">
         <div className="container">
           <div className="section-title">
-            <span>Our Funfact</span>
-            <h2>Working Together To Create Something Unique</h2>
+            <span>An Idea💡</span>
+            <h2>Let's Together To Create Something Unique</h2>
           </div>
 
           <div className="row justify-content-center">
@@ -43,7 +43,7 @@ const FunFactStyle3 = () => {
                 <h3>
                   1,288 <span className="small-text">+</span>
                 </h3>
-                <p>Worldwide Partner</p>
+                <p>Worldwide Partners</p>
               </div>
             </div>
 

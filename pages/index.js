@@ -9,7 +9,6 @@ import CaseStudy from "@/components/Common/CaseStudy";
 import WhyChooseUsStyle1 from "@/components/Common/WhyChooseUsStyle1";
 import TestimonialStyle1 from "@/components/Common/TestimonialStyle1";
 import OurExpertise from "@/components/HomePageDemo1/OurExpertise";
-import Pricing from '@/components/PricingPlan/Pricing';
 import TeamMemberStyle1 from "@/components/Common/TeamMemberStyle1";
 import LatestArticles from "@/components/Common/LatestArticles";
 import Cta from "@/components/Common/Cta";

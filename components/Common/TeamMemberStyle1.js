@@ -11,15 +11,15 @@ const TeamMemberStyle1 = () => {
           <div className="row align-items-center">
             <div className="col-xl-3 col-lg-4 col-md-12">
               <div className="team-box-content">
-                <span>Our Expert Team</span>
-                <h3>Alone We Can Do So Little Together We Can Do So Much</h3>
+                <span>Meet The Grayling Team</span>
+                <h3>Insert Cool Quote About How Sick The Grayling Team Is</h3>
                 <p>
                   Lorem ipsum dolor sit amet consectetur adipiscing elit fames
                   maecenas amet est scelerisque lectus tortor sit.
                 </p>
                 <div className="team-btn">
                   <Link href="/team">
-                    <a className="default-btn">View More</a>
+                    <a className="default-btn">Meet Everyone Else</a>
                   </Link>
                 </div>
               </div>
@@ -54,7 +54,7 @@ const TeamMemberStyle1 = () => {
                       <ul className="social">
                         <li>
                           <a
-                            href="https://www.facebook.com/EnvyTheme"
+                            href="https://www.facebook.com/"
                             target="_blank"
                             rel="noreferrer"
                           >
@@ -63,7 +63,7 @@ const TeamMemberStyle1 = () => {
                         </li>
                         <li>
                           <a
-                            href="https://twitter.com/?lang=en"
+                            href="https://twitter.com/"
                             target="_blank"
                             rel="noreferrer"
                           >
@@ -81,7 +81,7 @@ const TeamMemberStyle1 = () => {
                         </li>
                         <li>
                           <a
-                            href="https://www.linkedin.com/signup"
+                            href="https://www.linkedin.com/"
                             target="_blank"
                             rel="noreferrer"
                           >
@@ -91,8 +91,8 @@ const TeamMemberStyle1 = () => {
                       </ul>
                     </div>
                     <div className="team-content">
-                      <h3>Thomas Adison</h3>
-                      <span>CEO & Founder</span>
+                      <h3>Cutter Streeby</h3>
+                      <span>CEO</span>
                     </div>
                   </div>
                 </SwiperSlide>
@@ -105,7 +105,7 @@ const TeamMemberStyle1 = () => {
                       <ul className="social">
                         <li>
                           <a
-                            href="https://www.facebook.com/EnvyTheme"
+                            href="https://www.facebook.com/"
                             target="_blank"
                             rel="noreferrer"
                           >
@@ -142,8 +142,8 @@ const TeamMemberStyle1 = () => {
                       </ul>
                     </div>
                     <div className="team-content">
-                      <h3>Jeclin Firnandos</h3>
-                      <span>Manager</span>
+                      <h3>Chrystiana Lynn</h3>
+                      <span>COO</span>
                     </div>
                   </div>
                 </SwiperSlide>
@@ -156,7 +156,7 @@ const TeamMemberStyle1 = () => {
                       <ul className="social">
                         <li>
                           <a
-                            href="https://www.facebook.com/EnvyTheme"
+                            href="https://www.facebook.com/"
                             target="_blank"
                             rel="noreferrer"
                           >
@@ -193,8 +193,8 @@ const TeamMemberStyle1 = () => {
                       </ul>
                     </div>
                     <div className="team-content">
-                      <h3>Albas Madris</h3>
-                      <span>Marketing Director</span>
+                      <h3>Vanessa Gomez</h3>
+                      <span>CCO</span>
                     </div>
                   </div>
                 </SwiperSlide>
@@ -207,7 +207,7 @@ const TeamMemberStyle1 = () => {
                       <ul className="social">
                         <li>
                           <a
-                            href="https://www.facebook.com/EnvyTheme"
+                            href="https://www.facebook.com/"
                             target="_blank"
                             rel="noreferrer"
                           >
@@ -244,8 +244,8 @@ const TeamMemberStyle1 = () => {
                       </ul>
                     </div>
                     <div className="team-content">
-                      <h3>Emma Olivia</h3>
-                      <span>QA Engineer</span>
+                      <h3>Joe Shepard</h3>
+                      <span>CTO</span>
                     </div>
                   </div>
                 </SwiperSlide>
@@ -258,7 +258,7 @@ const TeamMemberStyle1 = () => {
                       <ul className="social">
                         <li>
                           <a
-                            href="https://www.facebook.com/EnvyTheme"
+                            href="https://www.facebook.com/"
                             target="_blank"
                             rel="noreferrer"
                           >
@@ -309,7 +309,7 @@ const TeamMemberStyle1 = () => {
                       <ul className="social">
                         <li>
                           <a
-                            href="https://www.facebook.com/EnvyTheme"
+                            href="https://www.facebook.com/"
                             target="_blank"
                             rel="noreferrer"
                           >
