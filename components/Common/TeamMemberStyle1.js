@@ -18,7 +18,7 @@ const TeamMemberStyle1 = () => {
                   maecenas amet est scelerisque lectus tortor sit.
                 </p>
                 <div className="team-btn">
-                  <Link href="/team">
+                  <Link href="/about">
                     <a className="default-btn">Meet Everyone Else</a>
                   </Link>
                 </div>
