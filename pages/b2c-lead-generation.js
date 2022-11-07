@@ -11,7 +11,7 @@ export default function ServiceDetails() {
     <>
       <NavbarStyle1 />
 
-      <PageBanner title="B2B Lead Generation" homeText="Home" homeUrl="/" />
+      <PageBanner title="B2C Lead Generation" homeText="Home" homeUrl="/" />
 
       <B2CLeadGenComponent />
 

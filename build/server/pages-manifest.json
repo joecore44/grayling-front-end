@@ -2,5 +2,6 @@
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
+  "/b2c-lead-generation": "pages/b2c-lead-generation.js",
   "/ads-management": "pages/ads-management.js"
 }

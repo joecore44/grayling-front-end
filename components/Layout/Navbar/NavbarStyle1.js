@@ -90,8 +90,18 @@ const NavbarStyle1 = () => {
                     </a>
                     <ul className="dropdown-menu">
                       <li className="nav-item">
-                        <Link href="/service-details" activeClassName="active">
-                          <a className="nav-link">Services Details</a>
+                        <Link href="/ads-management" activeClassName="active">
+                          <a className="nav-link">Ads Management</a>
+                        </Link>
+                      </li>
+                      <li className="nav-item">
+                        <Link href="/b2b-lead-generation" activeClassName="active">
+                          <a className="nav-link">B2B Lead Generation</a>
+                        </Link>
+                      </li>
+                      <li className="nav-item">
+                        <Link href="/b2c-lead-generation" activeClassName="active">
+                          <a className="nav-link">B2C Lead Generation</a>
                         </Link>
                       </li>
                     </ul>
